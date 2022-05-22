@@ -3,19 +3,570 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			Check out the <code>src/pages</code> directory to get started.<br/>
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card href="https://docs.astro.build/" title="Documentation" body="Learn how Astro works and explore the official API docs." /> 
-			<Card href="https://astro.build/integrations/" title="Integrations" body="Supercharge your project with new frameworks and libraries." /> 
-			<Card href="https://astro.build/themes/" title="Themes" body="Explore a galaxy of community-built starter themes." /> 
-			<Card href="https://astro.build/chat/" title="Chat" body="Come say hi to our amazing Discord community. ❤️" />
-		</ul>
-	</main>
+	<div class="header-top1">
+		<div class="container">
+			<p class="title1">
+				Now open at Time Out Market in DUMBO! Join us on the 5th
+				floor!
+			</p>
+			<span id="top1-close">X</span>
+		</div>
+	</div>
+	<div id="header-logo">
+		<div class="pc">
+			<div class="container">
+				<div class="icons">
+					<a href="./"><img src="./assets/images/common/logo-pc.gif" alt="logo" /></a>
+					<div id="menu01-pc">
+						<ul>
+							<li>
+								<a href="/location/" target="_blank">Hours & Location</a>
+							</li>
+							<li>
+								<a href="/menus/" target="_blank">Menus</a>
+							</li>
+							<li>
+								<a href="/events/" target="_blank">Events and Large Parties</a>
+							</li>
+							<li>
+								<a href="/about/" target="_blank">About Us</a>
+							</li>
+							<li class="menu-sub">
+								<button>Pickle Hospitality</button>
+								<ul>
+									<li>
+										<a href="#" target="_blank" rel="noopener">Pickle Hospitality</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" rel="noopener">Jacob's Pickles</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" rel="noopener">Maison Pickle</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" rel="noopener">Lucky Pickle</a>
+									</li>
+									<li>
+										<a href="#" target="_blank" rel="noopener">Jacob's Digs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" target="_blank">Gift Cards</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">Order Online</a>
+							</li>
+							<li>
+								<a href="/shop/" target="_blank" class="shop">Shop</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sp">
+			<div class="container">
+				<div class="icons">
+					<a href="./"><img src="./assets/images/common/logo-m.gif" alt="logo" /></a>
+					<div id="icon-menu">
+						<span></span><span></span><span></span>
+					</div>
+				</div>
+			</div>
+			<div id="menu-sp">
+				<ul>
+					<li>
+						<a href="/location/" target="_blank">Hours & Location</a>
+					</li>
+					<li>
+						<a href="/menus/" target="_blank">Menus</a>
+					</li>
+					<li>
+						<a href="/events/" target="_blank">Events and Large Parties</a>
+					</li>
+					<li>
+						<a href="/about/" target="_blank">About Us</a>
+					</li>
+					<li class="menu-sub">
+						<button>Pickle Hospitality</button>
+						<ul>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Pickle Hospitality</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Jacob's Pickles</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Maison Pickle</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Lucky Pickle</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Jacob's Digs</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" target="_blank">Gift Cards</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">Order Online</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">Jobs</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">Press</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">Contact</a>
+					</li>
+
+					<li>
+						<a href="/shop/" target="_blank" class="shop">Shop</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">email signup</a>
+					</li>
+				</ul>
+				<div class="icons">
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height="18px">
+							<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+							<path d="M279.14
+									288l14.22-92.66h-88.91v-60.13c0-25.35
+									12.42-50.06 52.24-50.06h40.42V6.26S260.43 0
+									225.36 0c-73.22 0-121.08 44.38-121.08
+									124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+						</svg>
+					</a>
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18px">
+							<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+							<path d="M224.1 141c-63.6 0-114.9 51.3-114.9
+										114.9s51.3 114.9 114.9 114.9S339 319.5
+										339 255.9 287.7 141 224.1 141zm0
+										189.6c-41.1
+										0-74.7-33.5-74.7-74.7s33.5-74.7
+										74.7-74.7 74.7 33.5 74.7 74.7-33.6
+										74.7-74.7 74.7zm146.4-194.3c0 14.9-12
+										26.8-26.8 26.8-14.9
+										0-26.8-12-26.8-26.8s12-26.8 26.8-26.8
+										26.8 12 26.8 26.8zm76.1
+										27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9
+										0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4
+										58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9
+										1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9
+										36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7
+										67.7-9.9 93.9-36.2 26.2-26.2 34.4-58
+										36.2-93.9 2.1-37 2.1-147.8
+										0-184.8zM398.8 388c-7.8 19.6-22.9
+										34.7-42.6 42.6-29.5 11.7-99.5 9-132.1
+										9s-102.7
+										2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7
+										9-132.1c7.8-19.6 22.9-34.7 42.6-42.6
+										29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1
+										9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5
+										9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+						</svg>
+					</a>
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+							height="18px" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>Tripadvisor</title>
+							<desc>
+								A solid styled icon from Orion Icon Library.
+							</desc>
+							<path data-name="layer4" d="M39.1 13.516a50.1 50.1 0 0 1 5.3
+											1.209 32.624 32.624 0 0 1 8.492
+											3.929 1.435 1.435 0 0 0
+											.7.2h10.189v.1a4.39 4.39 0 0
+											0-.4.705 16.853 16.853 0 0 0-2.5
+											5.239.477.477 0 0 0 .1.6 15.734
+											15.734 0 0 1 2.5 13.3 15.315 15.315
+											0 0 1-7.094 9.772 15.97 15.97 0 0
+											1-8.487 2.422 15.691 15.691 0 0
+											1-3.8-.5 16.211 16.211 0 0
+											1-7.893-4.634 9.057 9.057 0 0
+											1-.9-1.007c-1.1 1.713-2.3 3.425-3.4
+											5.138-1.2-1.713-2.3-3.425-3.4-5.037-.1
+											0-.1 0-.1.1l-.1.1a15.544 15.544 0 0
+											1-9.891 5.641 14.656 14.656 0 0
+											1-6.594-.4 15.314 15.314 0 0
+											1-7.793-4.936 15.784 15.784 0 0
+											1-3.8-8.16 13.951 13.951 0 0 1
+											.3-6.347 13.547 13.547 0 0 1
+											2.4-5.339.76.76 0 0 0 .1-.5 21.114
+											21.114 0 0 0-2.2-4.836 7.687 7.687 0
+											0 0-.8-1.108v-.1h9.9c.1 0
+											.3-.1.4-.1a34.036 34.036 0 0 1
+											7.194-3.526 50.8 50.8 0 0 1
+											5.6-1.511 33.995 33.995 0 0 1
+											5.6-.705 41.028 41.028 0 0 1
+											10.377.291zm-4 21.458a12.789 12.789
+											0 1 0 12.6-12.895 12.8 12.8 0 0
+											0-12.593 12.895zM15.924
+											22.079a12.846 12.846 0 1 0 12.788
+											12.895 12.706 12.706 0 0
+											0-12.788-12.895zm.7-3.324a15.746
+											15.746 0 0 1 10.091 4.231 16.211
+											16.211 0 0 1 5.2 9.772A16.351 16.351
+											0 0 1 37 23.087a15.491 15.491 0 0 1
+											10-4.231 36.237 36.237 0 0
+											0-14.187-3.022 38.507 38.507 0 0
+											0-16.19 2.921z"></path>
+							<path data-name="layer3" d="M47.8 26.814a7.963 7.963 0 0 1 .3
+											15.917 7.962 7.962 0 1
+											1-.3-15.917zm5.2 7.959a5.146 5.146 0
+											1 0-10.291-.1 5.245 5.245 0 0 0 5.2
+											5.239 5.012 5.012 0 0 0
+											5.082-5.139zm-37.176-7.959a7.966
+											7.966 0 0 1 .4 15.917 7.971 7.971 0
+											0 1-8.293-7.959 7.756 7.756 0 0 1
+											7.893-7.958zm5.1 7.959a5.036 5.036 0
+											0 0-5.2-5.138 5.24 5.24 0 0 0 .1
+											10.477 5.316 5.316 0 0 0
+											5.095-5.339z"></path>
+							<path data-name="layer2" d="M47.8 32.153a2.591 2.591 0 0 1
+											2.6 2.619 2.656 2.656 0 0 1-2.6
+											2.619 2.591 2.591 0 0 1-2.6-2.619
+											2.656 2.656 0 0 1 2.6-2.619z"></path>
+							<path data-name="layer1" d="M15.724 32.153a2.677 2.677 0 0 1
+											2.7 2.619 2.763 2.763 0 0 1-2.7 2.72
+											2.67 2.67 0 1 1 0-5.339z"></path>
+						</svg>
+					</a>
+					<a href="#">
+						<svg height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+							<path d="M464 64C490.5 64 512 85.49 512
+											112C512 127.1 504.9 141.3 492.8
+											150.4L275.2 313.6C263.8 322.1 248.2
+											322.1 236.8 313.6L19.2 150.4C7.113
+											141.3 0 127.1 0 112C0 85.49 21.49 64
+											48 64H464zM217.6 339.2C240.4 356.3
+											271.6 356.3 294.4 339.2L512
+											176V384C512 419.3 483.3 448 448
+											448H64C28.65 448 0 419.3 0
+											384V176L217.6 339.2z" />
+						</svg>
+					</a>
+				</div>
+				<a href="#" class="address">
+					517 Amsterdam Ave, New York, NY 10024
+				</a>
+				<a href="#" class="power">powered by BentoBox</a>
+			</div>
+		</div>
+	</div>
+	<header id="header">
+		<div class="header-top2">
+			<div class="container">
+				<a href="#" class="titl2">
+					517 Amsterdam Ave, New York, NY 10024</a>
+			</div>
+		</div>
+		<div id="header-slider">
+			<div class="body-slider">
+				<div class="body-slider-item" style="
+							background-image: url(./assets/images/common/slider-01.avif);
+						"></div>
+				<div class="body-slider-item" style="
+							background-image: url(./assets/images/common/slider-02.avif);
+						"></div>
+			</div>
+			<div class="pc">
+				<ul id="menu-pc" class="w-100" >
+					<li>
+						<a href="/location/" target="_blank">Hours & Location</a>
+					</li>
+					<li>
+						<a href="/menus/" target="_blank">Menus</a>
+					</li>
+					<li>
+						<a href="/events/" target="_blank">Events and Large Parties</a>
+					</li>
+					<li>
+						<a href="/about/" target="_blank">About Us</a>
+					</li>
+					<li class="menu-sub">
+						<button>Pickle Hospitality</button>
+						<ul>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Pickle Hospitality</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Jacob's Pickles</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Maison Pickle</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Lucky Pickle</a>
+							</li>
+							<li>
+								<a href="#" target="_blank" rel="noopener">Jacob's Digs</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" target="_blank">Gift Cards</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">Order Online</a>
+					</li>
+					<li>
+						<a href="/shop/" class="menu-shop" target="_blank">Shop</a>
+					</li>
+				</ul>
+			</div>
+			<img src="./assets/images/common/img-01.gif" alt="" class="img-center" />
+			<div id="motion">
+				<button class="pause">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+						<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+						<path d="M361 215C375.3 223.8 384 239.3
+											384 256C384 272.7 375.3 288.2 361
+											296.1L73.03 472.1C58.21 482 39.66
+											482.4 24.52 473.9C9.377 465.4 0
+											449.4 0 432V80C0 62.64 9.377 46.63
+											24.52 38.13C39.66 29.64 58.21 29.99
+											73.03 39.04L361 215z" />
+					</svg>
+				</button>
+				<button class="play">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+						<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+						<path d="M272 63.1l-32 0c-26.51 0-48
+												21.49-48 47.1v288c0 26.51 21.49
+												48 48 48L272 448c26.51 0
+												48-21.49 48-48v-288C320 85.49
+												298.5 63.1 272 63.1zM80 63.1l-32
+												0c-26.51 0-48 21.49-48 48v288C0
+												426.5 21.49 448 48 448l32
+												0c26.51 0 48-21.49
+												48-48v-288C128 85.49 106.5 63.1
+												80 63.1z" />
+					</svg>
+				</button>
+			</div>
+		</div>
+	</header>
+	<section id="section1" data-wow-delay="0s" data-wow-duration="1s"  class="animated wow slideInLeft" >
+		<div class="container">
+			<h3 class="title">Welcome to Tiki Chick</h3>
+			<p class="text">
+				Break from the ordinary and escape to Tiki Chick, your
+				personal slice of paradise on the Upper West Side!
+			</p>
+			<p class="text">
+				Tiki Chick is open seven days a week, for in- person service
+				as well as takeout and delivery.
+			</p>
+			<p class="text">
+				Join us inside and be transported to a lush tropical oasis,
+				or stay connected to the city and sit outside on our covered
+				and climate- controlled patio.
+			</p>
+		</div>
+	</section>
+	<section id="section2">
+		<div class="container animated wow slideInUp" data-wow-delay="0s" data-wow-duration="1s" >
+			<h3 class="title">Reservations</h3>
+			<span class="text">Parties of all sizes are welcomed as walk- ins to our
+				tropical oasis. We offer reservations for groups of six
+				guests or more, placed at least a day in advance.
+			</span>
+		</div>
+	</section>
+	<section id="section3">
+		<div class="container animated wow slideInUp" data-wow-delay="0s" data-wow-duration="1s">
+			<h3 class="title">Hours & Location</h3>
+			<p class="text1">
+				517 Amsterdam Ave <br />
+				New York, NY 10024 <br />
+				info@tikichick.com
+			</p>
+			<p class="text2">
+				Monday - Thursday: <br />
+				5:00 pm- 12:00 am<br />
+				Friday:<br />
+				3:00 pm- 12:00 am<br />
+				Saturday & Sunday: <br />
+				12:00pm - 12:00 am
+			</p>
+			<a href="#" class="btn">VISIT US</a>
+		</div>
+	</section>
+	<section id="section4" data-wow-delay="0s" data-wow-duration="1s"  class="animated wow slideInLeft" ></section>
+	<section id="section5">
+		<div class="container animated wow slideInUp" data-wow-delay="0s" data-wow-duration="1s">
+			<h3 class="title">The newest member of Pickle Hospitality</h3>
+			<p class="text">
+				Find out about the team behind the Tiki Chick
+			</p>
+			<a href="#" class="btn">LEARN MORE</a>
+		</div>
+	</section>
+	<section id="section6" data-wow-delay="0s" data-wow-duration="1s"  class="animated wow slideInLeft" ></section>
+	<section id="section7">
+		<div class="container animated wow slideInUp" data-wow-delay="0s" data-wow-duration="1s">
+			<h3 class="title">Private Events</h3>
+			<p class="text2">Host your next event at Tiki Chick</p>
+			<a href="#" class="btn">INQUIRE</a>
+		</div>
+	</section>
+	<section id="section8" data-wow-delay="0s" data-wow-duration="1s"  class="animated wow slideInLeft" ></section>
+	<section id="section9">
+		<div class="container animated wow slideInUp" data-wow-delay="0s" data-wow-duration="1s">
+			<h3 class="title">Shop Tiki Chick</h3>
+			<p class="text">
+				Give the gift of Tiki Chick to a loved one or yourself!
+			</p>
+			<a href="#" class="btn">SHOP NOW</a>
+		</div>
+	</section>
+	<section id="section10" data-wow-delay="0s" data-wow-duration="1s"  class="animated wow slideInLeft" ></section>
+	<section id="section11"></section>
+	<footer>
+		<div class="container pc">
+			<div class="icons">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height="18px">
+						<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+						<path d="M279.14
+													288l14.22-92.66h-88.91v-60.13c0-25.35
+													12.42-50.06 52.24-50.06h40.42V6.26S260.43 0
+													225.36 0c-73.22 0-121.08 44.38-121.08
+													124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+					</svg>
+				</a>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18px">
+						<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+						<path d="M224.1 141c-63.6 0-114.9 51.3-114.9
+														114.9s51.3 114.9 114.9 114.9S339 319.5
+														339 255.9 287.7 141 224.1 141zm0
+														189.6c-41.1
+														0-74.7-33.5-74.7-74.7s33.5-74.7
+														74.7-74.7 74.7 33.5 74.7 74.7-33.6
+														74.7-74.7 74.7zm146.4-194.3c0 14.9-12
+														26.8-26.8 26.8-14.9
+														0-26.8-12-26.8-26.8s12-26.8 26.8-26.8
+														26.8 12 26.8 26.8zm76.1
+														27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9
+														0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4
+														58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9
+														1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9
+														36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7
+														67.7-9.9 93.9-36.2 26.2-26.2 34.4-58
+														36.2-93.9 2.1-37 2.1-147.8
+														0-184.8zM398.8 388c-7.8 19.6-22.9
+														34.7-42.6 42.6-29.5 11.7-99.5 9-132.1
+														9s-102.7
+														2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7
+														9-132.1c7.8-19.6 22.9-34.7 42.6-42.6
+														29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1
+														9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5
+														9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+					</svg>
+				</a>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" height="18px"
+						aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<title>Tripadvisor</title>
+						<desc>
+							A solid styled icon from Orion Icon Library.
+						</desc>
+						<path data-name="layer4" d="M39.1 13.516a50.1 50.1 0 0 1 5.3
+															1.209 32.624 32.624 0 0 1 8.492
+															3.929 1.435 1.435 0 0 0
+															.7.2h10.189v.1a4.39 4.39 0 0
+															0-.4.705 16.853 16.853 0 0 0-2.5
+															5.239.477.477 0 0 0 .1.6 15.734
+															15.734 0 0 1 2.5 13.3 15.315 15.315
+															0 0 1-7.094 9.772 15.97 15.97 0 0
+															1-8.487 2.422 15.691 15.691 0 0
+															1-3.8-.5 16.211 16.211 0 0
+															1-7.893-4.634 9.057 9.057 0 0
+															1-.9-1.007c-1.1 1.713-2.3 3.425-3.4
+															5.138-1.2-1.713-2.3-3.425-3.4-5.037-.1
+															0-.1 0-.1.1l-.1.1a15.544 15.544 0 0
+															1-9.891 5.641 14.656 14.656 0 0
+															1-6.594-.4 15.314 15.314 0 0
+															1-7.793-4.936 15.784 15.784 0 0
+															1-3.8-8.16 13.951 13.951 0 0 1
+															.3-6.347 13.547 13.547 0 0 1
+															2.4-5.339.76.76 0 0 0 .1-.5 21.114
+															21.114 0 0 0-2.2-4.836 7.687 7.687 0
+															0 0-.8-1.108v-.1h9.9c.1 0
+															.3-.1.4-.1a34.036 34.036 0 0 1
+															7.194-3.526 50.8 50.8 0 0 1
+															5.6-1.511 33.995 33.995 0 0 1
+															5.6-.705 41.028 41.028 0 0 1
+															10.377.291zm-4 21.458a12.789 12.789
+															0 1 0 12.6-12.895 12.8 12.8 0 0
+															0-12.593 12.895zM15.924
+															22.079a12.846 12.846 0 1 0 12.788
+															12.895 12.706 12.706 0 0
+															0-12.788-12.895zm.7-3.324a15.746
+															15.746 0 0 1 10.091 4.231 16.211
+															16.211 0 0 1 5.2 9.772A16.351 16.351
+															0 0 1 37 23.087a15.491 15.491 0 0 1
+															10-4.231 36.237 36.237 0 0
+															0-14.187-3.022 38.507 38.507 0 0
+															0-16.19 2.921z"></path>
+						<path data-name="layer3" d="M47.8 26.814a7.963 7.963 0 0 1 .3
+															15.917 7.962 7.962 0 1
+															1-.3-15.917zm5.2 7.959a5.146 5.146 0
+															1 0-10.291-.1 5.245 5.245 0 0 0 5.2
+															5.239 5.012 5.012 0 0 0
+															5.082-5.139zm-37.176-7.959a7.966
+															7.966 0 0 1 .4 15.917 7.971 7.971 0
+															0 1-8.293-7.959 7.756 7.756 0 0 1
+															7.893-7.958zm5.1 7.959a5.036 5.036 0
+															0 0-5.2-5.138 5.24 5.24 0 0 0 .1
+															10.477 5.316 5.316 0 0 0
+															5.095-5.339z"></path>
+						<path data-name="layer2" d="M47.8 32.153a2.591 2.591 0 0 1
+															2.6 2.619 2.656 2.656 0 0 1-2.6
+															2.619 2.591 2.591 0 0 1-2.6-2.619
+															2.656 2.656 0 0 1 2.6-2.619z"></path>
+						<path data-name="layer1" d="M15.724 32.153a2.677 2.677 0 0 1
+															2.7 2.619 2.763 2.763 0 0 1-2.7 2.72
+															2.67 2.67 0 1 1 0-5.339z"></path>
+					</svg>
+				</a>
+				<a href="#">
+					<svg height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+						<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+						<path d="M464 64C490.5 64 512 85.49 512
+															112C512 127.1 504.9 141.3 492.8
+															150.4L275.2 313.6C263.8 322.1 248.2
+															322.1 236.8 313.6L19.2 150.4C7.113
+															141.3 0 127.1 0 112C0 85.49 21.49 64
+															48 64H464zM217.6 339.2C240.4 356.3
+															271.6 356.3 294.4 339.2L512
+															176V384C512 419.3 483.3 448 448
+															448H64C28.65 448 0 419.3 0
+															384V176L217.6 339.2z" />
+					</svg>
+				</a>
+			</div>
+			<div class="footer-right">
+				<a href="#">Jobs</a>
+				<a href="#">Press</a>
+				<a href="#">Contact</a>
+				<a href="#" class="email">Email Signup</a>
+			</div>
+		</div>
+		<div class="sp">
+			<a href="#" class="shop">shop</a>
+		</div>
+	</footer>
+	<a href="#" class="footer-text pc"> powered by BentoBox </a>
 </Layout>
 
 <style>

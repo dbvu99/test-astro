@@ -1,0 +1,85 @@
+#location01 {
+    background: #f8c3aa url('../images/location/bg-01.png');
+    background-size: 800px;
+    background-repeat: repeat;
+    padding: 40px 0;
+}
+
+#location01 .container {
+    max-width: 710px;
+    background-color: #fff;
+    text-align: center;
+    padding: 46px 40px;
+}
+
+#location01 img {
+    width: 130px;
+    margin-bottom: 24px;
+}
+
+#location01 .title {
+    color: #1d5660;
+    font-size: 4rem;
+    font-family: "cosmopolitan regular";
+    line-height: 1;
+    margin-bottom: 35px;
+}
+
+#location01 a {
+    color: #444;
+    text-decoration: underline;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+#location01 a:hover {
+    opacity: 0.7;
+}
+
+#location01 .text {
+    color: #1d5660;
+    margin-bottom: 24px;
+}
+
+#location01 .text-date {
+    font-weight: bold;
+}
+
+#location01 .text-bottom {
+    margin-bottom: 0;
+}
+
+/*sx<=567px,sm <= 768px,md <= 992px,lg <= 1200px,xl <= 1600px*/
+@media screen and (max-width: 768px) {
+    #location01 .container {
+        padding: 46px 10px;
+    }
+}
+
+/**=== == == == == == == == == == == == == == == == == == == == == 
+=>                     location2
+== == == == == == == == == == == == == == == == == == == == === * */
+#location02{
+    position: relative;
+}
+#location02 .btn{
+    position: absolute;
+    bottom:50px ;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 12px;
+    color: #1d5660;
+    border: 1px solid #1d5660;
+    background-color: #b4ded8;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+#location02 .btn:hover{
+    background-color: #eec616;
+}
+#location02 iframe{
+    display: block;
+}

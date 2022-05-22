@@ -1,0 +1,391 @@
+/**=== == == == == == == == == == == == == == == == == == == == == =>                     section1== == == == == == == == == == == == == == == == == == == == === * */
+#section1 {
+	color: #1d5660;
+	text-align: center;
+	background-color: #eec616;
+	padding: 90px 0 80px 0;
+	position: relative;
+}
+
+#section1 .title {
+	font-family: "cosmopolitan regular";
+	color: #1d5660;
+	font-weight: 400;
+	text-transform: none;
+	font-size: 3rem;
+	margin-bottom: 24px;
+}
+
+#section1 .text {
+	line-height: 1.5;
+	font-size: 16px;
+	font-weight: 300;
+	max-width: calc(100% - 300px);
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+
+#section1::after {
+	content: "";
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/top/img-01.png);
+
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-name: rotate;
+}
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+
+	50% {
+		-webkit-transform: rotate(10deg);
+		transform: rotate(10deg);
+	}
+	100% {
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+}
+/*sx<=567px,sm <= 768px,md <= 992px,lg <= 1200px,xl <= 1600px*/
+@media screen and (max-width: 1000px) {
+	#section1 {
+		padding-bottom: 98px;
+		padding-top: 80px;
+	}
+	#section1::after {
+		width: 90px;
+		height: 90px;
+	}
+	#section1 .text {
+		max-width: 100%;
+	}
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+=>                     section2
+== == ==
+ == == == == == == == == == == == == == == == == == === * */
+#section2 {
+	background-image: url(../images/top/bg-02.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 180px 0 190px 0;
+}
+#section2 .container {
+	max-width: 1100px;
+}
+#section2 .title {
+	margin-bottom: 1rem;
+	font-family: "cosmopolitan regular";
+	color: white;
+	font-size: 4rem;
+}
+
+#section2 .text {
+	color: rgb(0, 0, 0);
+	background-color: rgb(41, 105, 176);
+	font-size: 36px;
+	font-weight: bold;
+	display: table;
+	position: relative;
+	display: inline;
+	line-height: 1.5;
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+ =>                     section3
+ == == == == == == == == == == == == == == == == == == == == === * */
+#section3 {
+	background: #b4ded8 url(../images/top/bg-03.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50vw;
+	max-height: 740px;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#section3 .container {
+	background-color: #eec616;
+	padding: 70px 0 62px 0;
+	max-width: 700px;
+	width: 100%;
+	text-align: center;
+}
+#section3 .title {
+	color: #1d5660;
+	font-weight: 400;
+	font-size: 4rem;
+	font-family: "cosmopolitan regular";
+}
+#section3 .text1 {
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 2;
+}
+#section3 .text2 {
+	color: #1d5660;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+#section3 .btn {
+	margin-top: 16px;
+	padding: 8px 16px;
+	border: 1px solid #1d5660;
+	border-radius: 3px;
+	color: #1d5660;
+	background-color: #b4ded8;
+	display: inline-block;
+}
+#section3 .btn:hover {
+	background-color: #eec616;
+}
+/*sx<=567px,sm <= 768px,md <= 992px,lg <= 1200px,xl <= 1600px*/
+@media screen and (max-width: 768px) {
+	#section3 .container {
+		width: 80vw;
+	}
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+ =>                     section4
+ == == == ==
+  == == == == == == == == == == == == == == == == === * */
+#section4 {
+	background-image: url("../images/top/bg-04.avif");
+	background-size: cover;
+	background-position: center center;
+	height: 50vw;
+	min-height: 20rem;
+	max-height: 740px;
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+  =>                     section5
+  == == == == == == == == == == == == == == == == == == == == === * */
+#section5 {
+	background-color: #eec616;
+	text-align: center;
+	position: relative;
+	padding: 80px 0 100px;
+}
+#section5 .title {
+	color: #1d5660;
+	font-weight: 400;
+	font-size: 3rem;
+	font-family: "cosmopolitan regular";
+	padding-bottom: 10px;
+}
+#section5 .text {
+	color: #1d5660;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+#section5 .btn {
+	margin-top: 30px;
+	padding: 8px 16px;
+	border: 1px solid #1d5660;
+	border-radius: 3px;
+	color: #1d5660;
+	background-color: #b4ded8;
+	display: inline-block;
+}
+#section5 .btn:hover {
+	background-color: #eec616;
+}
+#section5::after {
+	content: "";
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/top/img-01.png);
+
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-name: rotate;
+}
+/*sx<=567px,sm <= 768px,md <= 992px,lg <= 1200px,xl <= 1600px*/
+@media screen and (max-width: 1000px) {
+	#section5 {
+		padding-bottom: 98px;
+		padding-top: 80px;
+	}
+	#section5::after {
+		width: 90px;
+		height: 90px;
+	}
+}
+@media screen and (max-width: 567px) {
+	#section5 .title {
+		font-size: 2.8rem;
+	}
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+=>                     section6
+== == == == == == == == == == == == == == == == == == == == === * */
+#section6 {
+	background-image: url("../images/top/bg-06.avif");
+	background-size: cover;
+	background-position: center center;
+	height: 50vw;
+	min-height: 20rem;
+	max-height: 740px;
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+ =>                     section7
+ == == == == == == == == == == == == == == == == == == == == === * */
+#section7 {
+	background: #b4ded8 url(../images/top/bg-03.avif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50vw;
+	max-height: 740px;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#section7 .container {
+	background-color: #eec616;
+	padding: 70px 0 62px 0;
+	max-width: 700px;
+	width: 100%;
+	text-align: center;
+}
+#section7 .title {
+	color: #1d5660;
+	font-weight: 400;
+	font-size: 4rem;
+	font-family: "cosmopolitan regular";
+}
+
+#section7 .text2 {
+	color: #1d5660;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+#section7 .btn {
+	margin-top: 16px;
+	padding: 8px 16px;
+	border: 1px solid #1d5660;
+	border-radius: 3px;
+	color: #1d5660;
+	background-color: #b4ded8;
+	display: inline-block;
+}
+#section7 .btn:hover {
+	background-color: #eec616;
+}
+/*sx<=567px,sm <= 768px,md <= 992px,lg <= 1200px,xl <= 1600px*/
+@media screen and (max-width: 768px) {
+	#section7 .container {
+		width: 80vw;
+	}
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+=>                     SECTION8
+== == == == == == == == == == == == == == == == == == == == === * */
+#section8 {
+	background-image: url("../images/top/bg-08.avif");
+	background-size: cover;
+	background-position: center center;
+	height: 50vw;
+	min-height: 20rem;
+	max-height: 740px;
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+=>                     section9
+== == == == == == == == == == == == == == == == == == == == === * */
+#section9 {
+	background-color: #eec616;
+	text-align: center;
+	position: relative;
+	padding: 80px 0 100px;
+}
+#section9 .title {
+	color: #1d5660;
+	font-weight: 400;
+	font-size: 3rem;
+	font-family: "cosmopolitan regular";
+	padding-bottom: 10px;
+}
+#section9 .text {
+	color: #1d5660;
+	line-height: 1.5;
+	margin-top: 10px;
+}
+#section9 .btn {
+	margin-top: 30px;
+	padding: 8px 16px;
+	border: 1px solid #1d5660;
+	border-radius: 3px;
+	color: #1d5660;
+	background-color: #b4ded8;
+	display: inline-block;
+}
+#section9 .btn:hover {
+	background-color: #eec616;
+}
+#section9::after {
+	content: "";
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/top/img-01.png);
+
+	animation-duration: 2000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-name: rotate;
+}
+/*sx<=567px,sm <= 768px,md <= 992px,lg <= 1200px,xl <= 1600px*/
+@media screen and (max-width: 1000px) {
+	#section9 {
+		padding-bottom: 98px;
+		padding-top: 80px;
+	}
+	#section9::after {
+		width: 90px;
+		height: 90px;
+	}
+}
+@media screen and (max-width: 567px) {
+	#section9 .title {
+		font-size: 2.8rem;
+	}
+}
+/**=== == == == == == == == == == == == == == == == == == == == == 
+ =>                     section10
+ == == == == == == == == == == == == == == == == == == == == === * */
+#section10 {
+	background: #e8e7e2 url(../images/top/bg-03.avif);
+	background-size: cover;
+	background-position: center center;
+	height: 50vw;
+	min-height: 20rem;
+	max-height: 740px;
+}
+
